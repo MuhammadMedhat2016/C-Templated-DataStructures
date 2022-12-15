@@ -1,0 +1,97 @@
+﻿  Array.cpp
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(109,1): warning C4346: 'ReferenceType': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(109,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(109,23): error C2061: syntax error: identifier 'ReferenceType'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(110,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(110,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(115,1): warning C4346: 'PointerType': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(115,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(115,23): error C2061: syntax error: identifier 'PointerType'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(116,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(116,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(522,1): warning C4346: 'Iterator': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(522,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(522,11): error C2061: syntax error: identifier 'Iterator'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(523,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(523,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(528,1): warning C4346: 'Iterator': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(528,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(528,11): error C2061: syntax error: identifier 'Iterator'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(529,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(529,1): error C2447: '{': missing function header (old-style formal list?)
+  BinaryTree.cpp
+  List.cpp
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(45,1): warning C4346: 'ReferenceValueType': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(45,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(45,21): error C2061: syntax error: identifier 'ReferenceValueType'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(46,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(46,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(51,1): warning C4346: 'PointerValueType': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(51,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(51,21): error C2061: syntax error: identifier 'PointerValueType'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(52,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(52,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(466,1): warning C4346: 'Iterator': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(466,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(466,10): error C2061: syntax error: identifier 'Iterator'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(467,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(467,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(472,1): warning C4346: 'Iterator': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(472,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(472,10): error C2061: syntax error: identifier 'Iterator'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(473,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\List.cpp(473,1): error C2447: '{': missing function header (old-style formal list?)
+  Polynomial.cpp
+  Source.cpp
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(109,1): warning C4346: 'ReferenceType': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(109,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(109,23): error C2061: syntax error: identifier 'ReferenceType'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(110,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(110,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(115,1): warning C4346: 'PointerType': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(115,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(115,23): error C2061: syntax error: identifier 'PointerType'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(116,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(116,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(522,1): warning C4346: 'Iterator': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(522,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(522,11): error C2061: syntax error: identifier 'Iterator'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(523,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(523,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(528,1): warning C4346: 'Iterator': dependent name is not a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(528,1): message : prefix with 'typename' to indicate a type
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(528,11): error C2061: syntax error: identifier 'Iterator'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(529,1): error C2143: syntax error: missing ';' before '{'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Array.cpp(529,1): error C2447: '{': missing function header (old-style formal list?)
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(10,2): error C2065: 'BT': undeclared identifier
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(11,21): error C2065: 'BT': undeclared identifier
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(12,24): error C2100: illegal indirection
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(13,16): error C2593: 'operator <<' is ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(1075,32): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(940,31): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(934,31): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(929,31): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(923,31): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(806,31): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(761,31): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(725,32): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(681,32): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(13,16): message : while trying to match the argument list '(std::ostream, auto)'
+  Generating Code...

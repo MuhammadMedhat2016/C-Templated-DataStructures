@@ -1,0 +1,15 @@
+﻿  Source.cpp
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Heap.cpp(48,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Heap.cpp(47): message : while compiling class template member function 'Heap<int,Greater<int>>::Heap(std::initializer_list<T>)'
+          with
+          [
+              T=int
+          ]
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(13): message : see reference to function template instantiation 'Heap<int,Greater<int>>::Heap(std::initializer_list<T>)' being compiled
+          with
+          [
+              T=int
+          ]
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Source.cpp(13): message : see reference to class template instantiation 'Heap<int,Greater<int>>' being compiled
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Heap.cpp(51,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  DataStructures.vcxproj -> G:\Faculty of computer and Information science\DataStructures\x64\Debug\DataStructures.exe
