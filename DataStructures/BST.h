@@ -30,6 +30,7 @@ protected:
 	BinaryTreeNode<T>* Min(BinaryTreeNode<T>* root) const;
 	BinaryTreeNode<T>* Max(BinaryTreeNode<T>* root) const;
 	void getAncestors(BinaryTreeNode<T>* root, const T& data, List<BinaryTreeNode<T>*>& ancestors);
+	BinaryTreeNode<T>* getParent(BinaryTreeNode<T>* node, const T& data);
 	BinaryTreeNode<T>* inorderSuccessor(const T& data);
 	BinaryTreeNode<T>* inorderPredecessor(const T& data);
 public:

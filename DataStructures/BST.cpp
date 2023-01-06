@@ -253,3 +253,20 @@ void BST<T>::getAncestors(BinaryTreeNode<T>* node, const T& data, List<BinaryTre
 		getAncestors(node->rchild, data, ancestors);
 }
 
+template<typename T>
+BinaryTreeNode<T>* BST<T>::getParent(BinaryTreeNode<T>* node, const T& data)
+{
+	if (!node)
+		return nullptr;
+	if ((node->lchild && node->lchild->data == data) || (node->rchild && node->rchild->data == data))
+		return node;
+	if (node->data > data)
+	{
+		return getParent(node->lchild, data);
+	}
+	else if (node->data < data)
+	{
+		return getParent(node->rchild, data);
+	}
+	return nullptr;
+}

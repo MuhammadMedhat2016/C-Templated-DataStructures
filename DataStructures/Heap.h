@@ -30,6 +30,7 @@ struct Less
 		return _Left < _Right;
 	}
 };
+
 template<typename T, typename C>
 struct isLess;
 

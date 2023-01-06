@@ -54,7 +54,6 @@ template<typename T>
 AVLTree<T>::AVLTree(const AVLTree<T>& tempTree)
 	: BST<T>()
 {
-	std::cout << "cpy ctor of AVLtree" << std::endl;
 	if(tempTree.root)
 		this->root = build(tempTree.root);
 }
@@ -321,23 +320,7 @@ BinaryTreeNode<T>* AVLTree<T>::Remove(BinaryTreeNode<T>* node, const T& key)
 	return node;
 }
 
-template<typename T>
-BinaryTreeNode<T>* AVLTree<T>::getParent(BinaryTreeNode<T>* node, const T& data)
-{
-	if (!node)
-		return nullptr;
-	if ((node->lchild && node->lchild->data == data) || (node->rchild && node->rchild->data == data))
-		return node;
-	if (node->data > data)
-	{
-		return getParent(node->lchild, data);
-	}
-	else if (node->data < data)
-	{
-		return getParent(node->rchild, data);
-	}
-	return nullptr;
-}
+
 
 template<typename T>
 AVLTree<T>& AVLTree<T>::operator = (const AVLTree<T>& tree)

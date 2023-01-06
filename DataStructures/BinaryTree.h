@@ -14,7 +14,7 @@ public:
 	BinaryTreeNode* rchild;
 	BinaryTreeNode();
 	BinaryTreeNode(T data);
-	// for AVLTreeNode class to be dowcasted
+	// for AVLTreeNode and RBTNode classes to be dowcasted
 	virtual void dummy();
 };
 
