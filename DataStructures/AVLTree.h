@@ -19,6 +19,10 @@ class List;
 template<typename T>
 class Array;
 
+template<typename T, typename U>
+struct MapPair;
+
+
 template<typename T>
 class AVLTreeNode : public BinaryTreeNode<T>
 {

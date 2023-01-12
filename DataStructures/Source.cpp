@@ -3,19 +3,25 @@
 #include <map>
 #include<utility>
 using namespace std;
-
 int main()
 {
+	Map<int, int> mp = { {1,2}, {3,4} };
+	mp.insert({ 5,4 });
 
-	Map<int, int> mp = { {1,2}, {2,3}, {3,4} };
-
-	mp[1];
+	Map<int, int>::Iterator it = mp.begin();
 	
-	map<int, int> m;
+	for (; it != mp.end(); it++)
+	{
+		cout << it->first << " " << it->second << endl;
+	}
 
-	m[0] = 2;
+	--it;
+	cout << it->first << endl;
+	it--;
+	cout << it->first << endl;
+	it--;
+	cout << it->first << endl;
 
-	
 
 
 	return 0;

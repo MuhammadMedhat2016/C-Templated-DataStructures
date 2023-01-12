@@ -4,9 +4,11 @@
   BST.cpp
   Heap.cpp
   List.cpp
+  Map.cpp
   Polynomial.cpp
   RBT.cpp
   Set.cpp
   Source.cpp
   Generating Code...
+G:\Faculty of computer and Information science\DataStructures\DataStructures\Map.cpp(111): warning C4715: 'MapIterator<Map<int,int> >::getNextElement': not all control paths return a value
   DataStructures.vcxproj -> G:\Faculty of computer and Information science\DataStructures\x64\Debug\DataStructures.exe

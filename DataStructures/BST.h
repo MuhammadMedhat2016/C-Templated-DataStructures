@@ -21,7 +21,6 @@ template<typename T>
 class BST : public BinaryTree<T>
 {
 private:
-	BinaryTreeNode<T>* Search(BinaryTreeNode<T>* root, const T& data);
 	void getTreeNodesAddresses(BinaryTreeNode<T> *node, Array<BinaryTreeNode<T>*>& addresses);
 	BinaryTreeNode<T>* createBalancedTree(int q, int r, Array<BinaryTreeNode<T>*>& addresses);
 	BinaryTreeNode<T>* Remove(BinaryTreeNode<T>* root, const T& key);
@@ -43,5 +42,6 @@ public:
 	virtual void remove(const T& key);
 	void treeBalance();
 	int B_factor();
-	
+	BinaryTreeNode<T>* Search(BinaryTreeNode<T>* root, const T& data);
+
 };
