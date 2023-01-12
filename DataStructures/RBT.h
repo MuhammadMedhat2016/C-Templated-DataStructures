@@ -49,8 +49,6 @@ public:
 	RBT(RBT<T>&& temp_tree) noexcept;
 	void treeBalance() = delete;
 	int B_factor() = delete;
-	void printColors(RBTNode<T>* node);
-	void print();
 	void insert(T value);
 	
 

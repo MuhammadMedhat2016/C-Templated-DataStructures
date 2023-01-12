@@ -1,9 +1,9 @@
 #pragma once
 
 #include <initializer_list>
-#include <utility>
+
 using std::initializer_list;
-using std::pair;
+
 template<typename T>
 class BinaryTreeNode;
 
@@ -29,6 +29,8 @@ public:
 };
 
 
+
+
 template<typename T>
 class AVLTree : public BST<T>
 {
@@ -39,7 +41,6 @@ private:
 	BinaryTreeNode<T>* build(BinaryTreeNode<T>* node);
 	BinaryTreeNode<T>* Remove(BinaryTreeNode<T>* node, const T& key);
 	void relink(AVLTreeNode<T>* p, BinaryTreeNode<T>* parentNode);
-	BinaryTreeNode<T>* getParent(BinaryTreeNode<T>* root, const T& data);
 public:
 	AVLTree();
 	AVLTree(initializer_list<T> list);
@@ -54,6 +55,7 @@ public:
 	AVLTree<T>& operator = (const AVLTree<T>& tree);
 	AVLTree<T>& operator = (AVLTree<T>&& tree) noexcept;
 	BinaryTreeNode<T>* getRoot() const;
+
 	~AVLTree();
 };
 

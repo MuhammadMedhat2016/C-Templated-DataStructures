@@ -221,19 +221,3 @@ void RBT<T>::insertFix(RBTNode<T>* node)
 		grandParent->c = RED;
 	}
 }
-
-template<typename T>
-void RBT<T>::printColors(RBTNode<T> *node)
-{
-	if (!node)
-		return;
-	printColors(cast(node->lchild));
-	std::cout <<node->data <<" " << node->c << "\n";
-	printColors(cast(node->rchild));
-}
-
-template<typename T>
-void RBT<T>::print()
-{
-	printColors(cast(this->root));
-}

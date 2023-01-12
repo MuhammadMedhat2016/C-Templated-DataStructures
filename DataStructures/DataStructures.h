@@ -9,3 +9,4 @@
 #include "Set.cpp"
 #include "Heap.cpp"
 #include "RBT.cpp"
+#include "Map.cpp"

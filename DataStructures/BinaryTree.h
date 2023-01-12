@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 
+
 template<class T>
 class Array;
 
@@ -9,9 +10,9 @@ template<typename T>
 class BinaryTreeNode
 {
 public:
-	BinaryTreeNode* lchild;
+	BinaryTreeNode<T>* lchild;
 	T data;
-	BinaryTreeNode* rchild;
+	BinaryTreeNode<T>* rchild;
 	BinaryTreeNode();
 	BinaryTreeNode(T data);
 	// for AVLTreeNode and RBTNode classes to be dowcasted

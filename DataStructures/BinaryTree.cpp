@@ -5,7 +5,6 @@ template<typename T>
 BinaryTreeNode<T>::BinaryTreeNode()
 {
 	lchild = rchild = nullptr;
-	data = T();
 }
 
 template<typename T>

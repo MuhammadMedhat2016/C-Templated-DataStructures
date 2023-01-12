@@ -65,7 +65,7 @@ BinaryTreeNode<T>* AVLTree<T>::build(BinaryTreeNode<T>* node)
 	if (node->lchild == node->rchild && node->lchild == nullptr)
 		return new AVLTreeNode<T>(node->data);
 
-	BinaryTreeNode<T>* temp = new AVLTreeNode(node->data);
+	BinaryTreeNode<T>* temp = new AVLTreeNode<T>(node->data);
 	temp->lchild = build(node->lchild);
 	temp->rchild = build(node->rchild);
 	return temp;
@@ -131,7 +131,7 @@ void AVLTree<T>::balance()
 		p->bFactor = this->calcHeight(p->lchild) - this->calcHeight(p->rchild);
 		if (p->bFactor == 2 || p->bFactor == -2)
 		{
-			BinaryTreeNode<T>* parentNode = getParent(this->root, p->data);
+			BinaryTreeNode<T>* parentNode = this->getParent(this->root, p->data);
 			relink(p, parentNode);
 		}
 	}
@@ -277,14 +277,14 @@ BinaryTreeNode<T>* AVLTree<T>::Remove(BinaryTreeNode<T>* node, const T& key)
 		// if it is a leaf node remove it at once
 		if (node->lchild == node->rchild && node->lchild == nullptr)
 		{
-			this->actionPosition = getParent(this->root, node->data);
+			this->actionPosition = this->getParent(this->root, node->data);
 			delete node;
 			return nullptr;
 		}
 		// if it has one child node -> connect it's parent to it's only child then remove the node
 		else if ((node->lchild && !node->rchild) || (!node->lchild && node->rchild))
 		{
-			this->actionPosition = getParent(this->root, node->data);
+			this->actionPosition = this->getParent(this->root, node->data);
 			BinaryTreeNode<T>* temp;
 			if (node->lchild)
 				temp = node->lchild;
@@ -319,8 +319,6 @@ BinaryTreeNode<T>* AVLTree<T>::Remove(BinaryTreeNode<T>* node, const T& key)
 	}
 	return node;
 }
-
-
 
 template<typename T>
 AVLTree<T>& AVLTree<T>::operator = (const AVLTree<T>& tree)

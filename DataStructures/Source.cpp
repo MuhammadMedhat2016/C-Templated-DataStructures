@@ -1,22 +1,21 @@
 #include <iostream>
 #include "DataStructures.h"
+#include <map>
+#include<utility>
 using namespace std;
 
 int main()
 {
-	RBT<int> r = {10,18,7,15,16,30,25,40,60,2,1,70};
-	Array<int> in = r.traverse(INORDER);
-	Array<int> pre = r.traverse(PREORDER);
 
-	for (int ele : in)
-		cout << ele << " ";
-	cout << endl;
+	Map<int, int> mp = { {1,2}, {2,3}, {3,4} };
 
-	for (int ele : pre)
-		cout << ele << " ";
-	cout << endl;
+	mp[1];
+	
+	map<int, int> m;
 
-	r.print();
+	m[0] = 2;
+
+	
 
 
 	return 0;
